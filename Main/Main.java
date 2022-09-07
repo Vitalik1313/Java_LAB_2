@@ -11,7 +11,9 @@ public class Main {
         }
 
         Train.trainsToDest(trains,"Lviv");
+        Train.trainsToDest(trains,"Kyiv");
         Train.trainsToDestInTime(trains,"Lviv","12.00");
+        Train.trainsToDestInTime(trains,"Kyiv","15.00");
         Train.trainsToDestWithPlaces(trains,"Lviv");
     }
 }
